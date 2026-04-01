@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Optovka - iOS O'rnatish</title>
+    <style>
+        body { font-family: -apple-system, system-ui, sans-serif; text-align: center; background: #0f172a; color: white; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .card { background: #1e293b; padding: 40px; border-radius: 30px; box-shadow: 0 20px 50px rgba(0,0,0,0.5); width: 80%; max-width: 400px; }
+        .icon { width: 100px; height: 100px; background: #6366f1; margin: auto; border-radius: 25px; display: flex; align-items: center; justify-content: center; font-size: 50px; }
+        .btn { display: block; background: #22c55e; color: white; text-decoration: none; padding: 20px; border-radius: 15px; font-weight: bold; margin-top: 30px; transition: 0.3s; }
+        .btn:hover { background: #16a34a; }
+        .note { font-size: 12px; color: #64748b; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="icon">📦</div>
+        <h2>Optovka Mobile</h2>
+        <p>iOS ilovasini to'g'ridan-to'g'ri o'rnating</p>
+        
+        <!-- !!! DIQQAT: manifest.plist manzili to'g'ri ekanligini tekshiring !!! -->
+        <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/USERNAME/REPO/main/manifest.plist" class="btn">
+            ILOVANI O'RNATISH (INSTALL)
+        </a>
+
+        <div class="note">
+            Eslatma: O'rnatgandan so'ng "Noma'lum dasturchi" xatosi chiqsa, Sozlamalar -> Asosiy -> Qurilmani boshqarish bo'limidan ishonch (Trust) bering.
+        </div>
+    </div>
+</body>
+</html>
